@@ -14,7 +14,7 @@ import java.util.List;
  * @author kappy
  * @since 2020-11-08
  */
-@Component("carchargeDao")
+@Component("charchargeDao")
 public interface CarchargeMapper extends BaseMapper<Carcharge> {
 
     List<Carcharge> queryCarChargeAll(Carcharge carcharge);

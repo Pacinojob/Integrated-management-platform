@@ -2,7 +2,7 @@
     <div class="layuimini-main">
 
         <div class="demoTable">
-            房间号：
+            宿舍号：
             <div class="layui-inline">
                 <input class="layui-input" name="numbers"  id="numbers" autocomplete="off">
             </div>
@@ -45,8 +45,8 @@
             cols: [[
                 {type: "checkbox", width: 50},
                 //{field: 'id', width: 80, title: 'ID', sort: true},
-                {field: 'numbers', width: 80, title: '房号'},
-                {field: 'area', width: 80, title: '面积'},
+                {field: 'numbers', width: 80, title: '宿舍号'},
+                {field: 'area', width: 80, title: '人数'},
                 {field: 'intoDate', width: 150, title: '入住时间'},
                 {field: 'status', width: 80, title: '状态',
                  templet:function(res){
@@ -114,7 +114,7 @@
             if (obj.event === 'add') {   // 监听添加操作
 
                 var content = miniPage.getHrefContent('page/base/house/addHouse.html');
-                var index=openPage(content,"添加房屋",'70%','70%');
+                var index=openPage(content,"添加宿舍",'70%','70%');
                 $(window).on("resize", function () {
                     layer.full(index);
                 });
@@ -169,7 +169,7 @@
             var data = obj.data;
             if (obj.event === 'edit') {
                 var content = miniPage.getHrefContent('page/base/house/editHouse.html');
-                var index=openPage(content,"编辑房屋",'70%','70%');
+                var index=openPage(content,"编辑宿舍",'70%','70%');
 
                 //渲染数据
                 setFormValues(data);

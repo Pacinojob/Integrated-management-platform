@@ -67,20 +67,20 @@
               "target": "_self"
             },
             {
-              "title": "学生管理",
+              "title": "宿舍管理",
               "href": "page/base/owner/OwnerIndex.html",
               "icon": "fa fa-angle-double-down",
               "target": "_self"
             },
             {
-              "title": "宿舍管理",
+              "title": "学生管理",
               "href": "page/base/park/ParkIndex.html",
               "icon": "fa fa-dashboard",
               "target": "_self"
             },
 
             {
-              "title": "抄表管理",
+              "title": "水电管理",
               "href": "page/base/record/RecordIndex.html",
               "icon": "fa fa-edit",
               "target": "_self"
